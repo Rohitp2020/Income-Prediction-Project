@@ -1,0 +1,4 @@
+[core]
+    remote = income_remote
+['remote "income_remote"']
+    url = gdrive://1JkCOuDEpbLoPQa0FSQ6SX2JLxMqv5jDS
