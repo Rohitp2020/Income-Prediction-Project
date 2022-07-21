@@ -14,7 +14,13 @@ jobs:
       - image: "circleci/python:3.6.4"
     steps:
       - checkout
-      - run: python3 main-test.py
+      - run: 
+        - python3 rawValidation.py
+          python3 predictFromModel.py
+          python3 prediction_Validation_Insertion.py
+          python3 test.py
+          python3 training_Validation_insertion.py
+          python3 trainingModel.py
 
 workflows:
   build_and_test:
